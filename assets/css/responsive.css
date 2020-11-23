@@ -1,0 +1,165 @@
+/* ****************
+Ratina
+************** */
+
+@media (max-width: 1920px) {}
+
+@media (max-width: 1680px) {}
+
+@media (max-width: 1440px) {}
+
+
+/* ****************
+Desktop
+************** */
+
+@media (max-width: 1024px) {
+    .skill {
+        margin-bottom: 15px;
+    }
+    .services .services-grid {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 991px) {
+    .home-area .cd-intro h1 {
+        font-size: 40px;
+    }
+    #main-area {
+        left: 0;
+    }
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        right: 42px;
+        height: 38px;
+        width: 44px;
+        top: 30px;
+        z-index: 999;
+        background: #000;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    .home-area .cd-intro {
+        text-align: center;
+        padding-top: 20%;
+    }
+    .desk {
+        left: 200px;
+        @include transition(all 0.4s ease);
+    }
+    .desk {
+        left: -200px;
+        @include transition(all 0.4s ease);
+    }
+}
+
+@media (max-width: 768px) {}
+
+
+/* **************** 
+Tab 
+************** */
+
+@media (max-width: 767px) {
+    .about-con {
+        margin-top: 30px;
+    }
+    .contact .form-control {
+        margin-bottom: 15px;
+    }
+    .form-group {
+        margin-bottom: 0;
+    }
+    .portfolio .filters .port-grid {
+        width: 48%;
+    }
+    .home-area .cd-intro {
+        text-align: center;
+        padding-top: 30%;
+    }
+    .contact .contact-info {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        right: 30px;
+        height: 38px;
+        width: 44px;
+        top: 28px;
+    }
+    .home-area .cd-intro h1 {
+        font-size: 32px;
+    }
+    .about-me .title h2,
+    .portfolio .title h2,
+    .services .title h2,
+    .blog .title h2,
+    .contact .title h2 {
+        font-size: 28px;
+    }
+    .portfolio .filters .port-grid .view a {
+        font-size: 15px;
+        padding: 5px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio a.cus-btn {
+        margin: 5px 0;
+    }
+    .portfolio .filters {
+        margin-top: 15px;
+    }
+}
+
+
+/* **************** 
+Mobile 
+************** */
+
+@media (max-width: 375px) {
+    .home-area .cd-intro h1 {
+        font-size: 30px;
+    }
+    .about-me .title h2,
+    .portfolio .title h2,
+    .services .title h2,
+    .blog .title h2,
+    .contact .title h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 360px) {
+    .home-area .cd-intro h1 {
+        font-size: 28px;
+    }
+    .about-me .title h2,
+    .portfolio .title h2,
+    .services .title h2,
+    .blog .title h2,
+    .contact .title h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-area .cd-intro h1 {
+        font-size: 26px;
+    }
+    .about-me .title h2,
+    .portfolio .title h2,
+    .services .title h2,
+    .blog .title h2,
+    .contact .title h2 {
+        font-size: 24px;
+    }
+}
