@@ -242,6 +242,7 @@ a.cus-btn {
     -webkit-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    border-radius: 5px;
 }
 
 a.cus-btn:hover {
@@ -733,6 +734,10 @@ skills
     overflow: hidden;
 }
 
+.skill-img img {
+    border-radius: 6px;
+}
+
 .skill {
     margin-bottom: 15px;
     position: relative;
@@ -880,6 +885,11 @@ portfolio
     -webkit-box-shadow: 0px 10px 29px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 29px -4px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 29px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+}
+
+.portfolio .filters .port-grid img {
+    border-radius: 4px;
 }
 
 .portfolio .filters .port-grid:hover .view {
@@ -887,6 +897,7 @@ portfolio
     -ms-transition: all 0.4s ease;
     transition: all 0.4s ease;
     background: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
 }
 
 .portfolio .filters .port-grid:hover .view a {
@@ -895,6 +906,7 @@ portfolio
     -ms-transition: all 0.4s ease;
     transition: all 0.4s ease;
     opacity: 1;
+    border-radius: 4px;
 }
 
 .portfolio .filters .port-grid .view {
@@ -906,6 +918,7 @@ portfolio
     width: 100%;
     text-align: center;
     vertical-align: middle;
+    border-radius: 4px;
 }
 
 .portfolio .filters .port-grid .view a {
@@ -1052,6 +1065,7 @@ blog
     transition: all 0.4s ease;
     margin-top: 0px;
     margin-bottom: 30px;
+    border-radius: 6px;
 }
 
 .blog .blog-grid:hover {
@@ -1104,7 +1118,7 @@ contact
     background-color: #222;
     background-clip: padding-box;
     border: 1px solid #222;
-    border-radius: 0;
+    border-radius: 6px;
 }
 
 .contact .form-control:focus {
@@ -1125,6 +1139,7 @@ contact
     -webkit-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    border-radius: 6px;
 }
 
 .contact button:hover {
@@ -1146,6 +1161,7 @@ contact
     -webkit-box-shadow: 0px 10px 31px -5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 31px -5px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 31px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
 }
 
 .contact .contact-info i {
